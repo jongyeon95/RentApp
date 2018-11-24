@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학과(부서)명" />
+
+        <EditText
+            android:id="@+id/a1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용장소" />
+
+        <EditText
+            android:id="@+id/a1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="대표자" />
+
+        <EditText
+            android:id="@+id/a1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학번/학년" />
+
+        <EditText
+            android:id="@+id/a1_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="연락처" />
+
+        <EditText
+            android:id="@+id/a1_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용일" />
+
+        <EditText
+            android:id="@+id/a1_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용시간" />
+
+        <EditText
+            android:id="@+id/a1_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용인원" />
+
+        <EditText
+            android:id="@+id/a1_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+
+        <TextView
+
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용목적" />
+
+        <EditText
+            android:id="@+id/a1_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용기자재" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="숫자입력바람 \n 1.PC(전자교탁) 2.무선MIC \n 3.유선MIC 4.PROJECTOR \n 5.DVD / VTR" />
+
+        <EditText
+            android:id="@+id/a1_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기타요청사항" />
+        <EditText
+            android:id="@+id/a1_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="※ 유의사항
+
+1.이 신청서는 학사지원팀 확인 후 반드시 탐구관 신청서는 탐구관기자재실(2F)에 미래관, 우촌관 신청서는 통합기자재실(미래관 지하)에 제출하여야 한다.\n
+2.대표자는 시설물관리규정을 준수하며, 본인 및 참석인의 부주의로 인하여 발생되는 모든 문제에 대한 일체의 책임을 진다.\n
+3.사용시간엄수, 음식물반입금지, 시설유지 및 청결유지, 실내금연 등을 철저히 지켜야하며, 해당사항 위반에 대한 학교 당국의 제재 조치에 대하여 전적으로 동의한다.\n
+4.행사종료 후 시설물, 비품, 사용 기구를 원상복구 하여야 한다.(가설한 기자재, 벽보, 포스터등)을 행사 종료 후 즉시 철거하지 않을 경우 임의처분 및 모든 제재조치에 전적으로 동의한다.\n
+5.시설공간의 대여시간은 학교 사정에 따라 일부 조정할 수 있다.\n
+" />
+
+        <Button
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제출"></Button>
+
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
