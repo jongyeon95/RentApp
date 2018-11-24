@@ -19,6 +19,7 @@
         <activity android:name=".ChoiceMenu"></activity>
         <activity android:name=".RentList"></activity>
         <activity android:name=".sendRent"></activity>
+        <activity android:name=".checkremain"></activity>
     </application>
 
 </manifest>

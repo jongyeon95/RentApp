@@ -25,6 +25,8 @@ public class ChoiceMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.choicemenu);
         rentbutton=(Button)findViewById(R.id.rentform);
+        checkemptybtn=(Button)findViewById(R.id.checkempty);
+
         TextView test=(TextView)findViewById(R.id.test1);
         final Intent intent=getIntent();
        ID=intent.getStringExtra("ID");
@@ -35,6 +37,13 @@ public class ChoiceMenu extends AppCompatActivity {
            public void onClick(View view) {
                Intent gorentintent=new Intent(getApplicationContext(),RentList.class);
                startActivity(gorentintent);
+           }
+       });
+       checkemptybtn.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent checkempty =new Intent(getApplicationContext(),checkremain.class);
+               startActivity(checkempty);
            }
        });
 

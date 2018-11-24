@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,11 +21,17 @@ public class MainActivity extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(idtextv.getText().toString().equals("1")&&pwtextv.getText().toString().equals("2")){
                 Intent intent=new Intent(getApplicationContext(),ChoiceMenu.class);
                 intent.putExtra("ID",idtextv.getText().toString());
                 intent.putExtra("PW",pwtextv.getText().toString());
-                startActivity(intent);
+                startActivity(intent);}
+                else
+                    Toast.makeText(MainActivity.this, "로그인에 실패하였습니다.",
+                            Toast.LENGTH_SHORT).show();
+
             }
+
         });
     }
 }
